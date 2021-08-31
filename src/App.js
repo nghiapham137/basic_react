@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Count from "./components/Count";
 import PostList from "./components/PostList";
 
 const postList = [
@@ -27,6 +28,7 @@ const App = () => {
   return (
     <div>
       <PostList postList={postList}></PostList>
+      <Count></Count>
     </div>
   );
 };
