@@ -1,5 +1,7 @@
 import React, { useState } from "react";
 import Count from "./components/Count";
+import DemoUseReducer from "./components/DemoUseReducer";
+import HookDemo from "./components/HookDemo";
 import PostList from "./components/PostList";
 
 const postList = [
@@ -29,6 +31,9 @@ const App = () => {
     <div>
       <PostList postList={postList}></PostList>
       <Count></Count>
+      <br></br>
+      <DemoUseReducer></DemoUseReducer>
+      <HookDemo></HookDemo>
     </div>
   );
 };
